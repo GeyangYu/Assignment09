@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/darkteal</item>
+        <item name="colorAccent">@color/lightblue</item>
+        <item name="android:colorBackground">@color/lightteal</item>
+        <item name="android:buttonStyle">@style/NewButton</item>
+    </style>
+
+    <style name="NewButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_new</item>
+    </style>
+
+</resources>
